@@ -30,8 +30,7 @@ Before building models, I prepared the data:
 - Removed unnecessary columns (like EmployeeNumber)
 - Split data into training and testing sets
 - Applied StandardScaler for Logistic Regression
-
-This step ensures the data is clean and usable for machine learning.
+- This step ensures the data is clean and usable for machine learning.
 
 ---
 
@@ -43,8 +42,7 @@ I analyzed the data using graphs to understand patterns:
 - Overtime vs Attrition → Employees with overtime leave more
 - Salary vs Attrition → Lower salary employees leave more
 - Job Satisfaction → Low satisfaction leads to higher attrition
-
-These insights helped understand the problem before modeling.
+- These insights helped understand the problem before modeling.
 
 ---
 
@@ -87,8 +85,6 @@ Using Random Forest and Decision Tree, I identified the most important features:
 - Age
 - Total Working Years
 - Job Level
-
-These are the main factors affecting employee attrition.
 
 ---
 
@@ -147,15 +143,6 @@ Even though accuracy is good, recall for attrition is still a challenge, which m
 - Scikit-learn
 - Matplotlib
 - Seaborn
-
----
-
-## 🚀 Future Improvements
-
-- Hyperparameter tuning
-- Try advanced models like XGBoost
-- Handle imbalance using SMOTE
-- Improve recall for attrition prediction
 
 ---
 
